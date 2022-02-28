@@ -60,11 +60,14 @@ function Chat() {
 
   return (
     <div className="chat">
-      <ChatHeader
-        topicName={topicName}
-        topicDesc={topicDesc}
-        topicEta={topicEta}
-      />
+      <div className="chat__chatHeader">
+        <ChatHeader
+        topicId={topicId}
+          topicName={topicName}
+          topicDesc={topicDesc}
+          topicEta={topicEta}
+        />
+      </div>
       <div className="chat__messages">
         {messages.map((message) => (
           <Message

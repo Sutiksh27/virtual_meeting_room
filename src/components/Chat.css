@@ -6,7 +6,12 @@
   height: 100vh;
   color: white;
 }
-
+.chat__chatHeader {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .chat__messages {
   flex: 1;
   overflow: auto;

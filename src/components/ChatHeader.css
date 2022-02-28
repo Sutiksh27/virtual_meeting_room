@@ -1,10 +1,13 @@
 .chatHeader {
+  width: 95%;
   display: flex;
   justify-content: space-between;
   color: gray;
   padding: 10px;
-  height: 150px;
-  border-bottom: 3px solid gray;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-top: 10px;
+  background-color: #474b53;
 }
 
 .chatHeader__hash {
@@ -30,9 +33,15 @@
   display: flex;
   padding: 10px;
   justify-content: space-between;
+  flex-direction: column;
   color: white;
+  align-items: right;
 }
-
+.chatHeader__crudIcons {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
 .chatHeader__right > h4 {
   color: white;
   font-size: 18px;
