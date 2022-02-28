@@ -1,0 +1,29 @@
+.sidebarTopic {
+  display: flex;
+  justify-content: space-between;
+}
+.sidebarTopic:hover {
+  background-color: #40464b;
+}
+.sidebarTopic:hover > h4 {
+  color: white;
+  background-color: #40464b;
+}
+
+.sidebarTopic > h4 {
+  display: flex;
+  padding-left: 15px;
+  align-items: center;
+  background-color: #2f3135;
+  color: gray;
+  cursor: pointer;
+}
+
+.sidebarTopic__hash {
+  font-size: 30px;
+  padding: 8px;
+}
+
+.currProfile{
+  margin-top: 10px;
+}
